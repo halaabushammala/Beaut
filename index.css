@@ -1,0 +1,1090 @@
+* {
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Ibarra Real Nova';
+
+}
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+
+}
+
+.toggle {
+    display: none;
+
+}
+
+
+nav {
+    margin-top: 20px;
+    width: 80%;
+    height: 8%;
+    margin-left: 10%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(179, 179, 187);
+
+
+}
+
+nav h1 {
+    padding-top: 5px;
+
+    color: 121212;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+nav ul li {
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(85, 76, 76);
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+    justify-content: space-around;
+}
+
+nav .icon {
+    display: flex;
+    flex-direction: row;
+    width: 118px;
+    height: 32px;
+    padding: 2px;
+}
+
+nav .icon img {
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+}
+
+.dropdown {
+    width: 200px;
+}
+
+
+.dropdown button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background: url("images/Screenshot\ 2023-07-24\ 010528.png") top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+section {
+
+    padding: 15% 0;
+    overflow: hidden;
+}
+section .container h1 {
+    font-family: 'font3';
+    font-size: 64px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    font-weight: 700;
+
+
+}
+
+section .container p {
+    width: 70%;
+    font-size: 18px;
+    color: rgb(82, 82, 82);
+    margin-left: 20%;
+}
+
+
+.container {
+
+
+    width: 50%;
+    height: 40%;
+    margin: 0px;
+
+
+}
+
+
+.img {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#img2 {
+    margin-right: 100px;
+    padding-right: 20%;
+}
+
+
+section img {}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+
+
+    justify-content: center;
+}
+
+.btn button {
+
+    border: none;
+    border-radius: 25px;
+
+    margin: 10px;
+    color: white;
+    font-family: ' Hind Madurai';
+    padding: 10px 30px 10px 30px;
+
+}
+
+#btn-shop {
+    background: linear-gradient(#315316, #72A748);
+}
+
+
+#btn-learn {
+    border: 1px solid #315316;
+    background-color: white;
+    color: black;
+    font-family: ' Hind Madurai';
+}
+
+.info {
+
+    margin-top: 6%;
+    margin: auto;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8%;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.col div {
+    width: 70%;
+    height: 40%;
+    margin: 25px;
+    padding: 20px;
+
+}
+
+.info .row1 .col h1 {
+    color: #315316;
+    font-family: 'font3';
+    font-size: 45px;
+}
+
+
+.info .row1 .col h2 {
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.info p {
+    color: #3E3E3E;
+    font-size: 18px;
+}
+
+.row2 {
+    width: 70%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+}
+
+.row2 h1 {
+    color: #3E3E3E;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Ibarra Real Nova';
+}
+
+
+.BeautyCare {
+
+    margin-top: 4%;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Beauty {
+    font-family: 'font1';
+    color: rgb(9, 95, 36);
+    font-size: 25px;
+}
+
+
+.video video {
+    width: 65%;
+    height: 60%;
+    border-radius: 7px;
+    box-shadow: 2px 2px #ccc;
+    margin-left: 20%;
+
+
+}
+
+.BeautyCosmeticsProducts {
+    font-size: 48px;
+   margin-bottom: 6%;
+    display: flex;
+    justify-content: center;
+
+    color: black;
+    font-weight: bold;
+
+}
+
+.product {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+.product .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.product .row div {
+    background-color: #315316;
+    width: 20%;
+    height: 40%;
+    background-color: rgb(254, 255, 255);
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(179, 179, 187);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 1px 1px 1px 1px rgb(179, 179, 187);
+    border-radius: 8px;
+
+}
+
+.product .row .img-product {
+    width: 90%;
+    height: 40%;
+    background: linear-gradient(#FDFDFD, #E7E7E7);
+    display: flex;
+    justify-content: center;
+    border: 1px solid #EEEEEE;
+    margin-top: -20%;
+    border-radius: 8px;
+}
+
+.product .row div img {
+    height: 120px;
+    width: 120px;
+}
+
+.product .row span {
+    color: rgb(9, 95, 36);
+    font-size: 20px;
+}
+
+.product .row div h1 {
+    width: 100%;
+    font-size: 22px;
+}
+
+.product .row div h6 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.product .row div p {
+    font-size: 18px;
+    color: #3E3E3E;
+}
+
+.fa-star,
+.fa-star-half {
+    color: #FDB140;
+    margin-top: 12px;
+}
+
+.product .row h6 p {
+    margin-top: 12px;
+    font-size: 15px;
+
+}
+
+#btn-show {
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(#315316, #72A748);
+    font-size: 15px;
+    color: white;
+    padding: 5px 13px 5px 13px;
+
+}
+
+.icon-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.discount {
+
+    width: 85%;
+    height: 100%;
+    background-color: #ece3e3;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    margin-top: 5%;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.discount div {
+    margin-top: 10%;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    gap: 15px;
+}
+
+.discount img {
+    width: 25%;
+}
+
+.discount div h1 {
+    font-size: 48px;
+}
+
+.discount div p {
+    color: #3E3E3E;
+    font-size: 18px;
+}
+
+.discount div form input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 60px 10px 60px;
+
+}
+
+.discount div form button {
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(9, 95, 36);
+    color: white;
+    padding: 10px 40px 10px 40px;
+    margin-left: -40px;
+}
+
+
+.body-face {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -5%;
+}
+
+.body-face div {
+    width: 50%;
+    height: 50%;
+    padding: 7%;
+}
+
+.body-face div img {
+    width: 100%;
+    height: 90%
+}
+
+
+
+
+.tittle-body-face {
+    font-size: 48px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700px;
+    color: black;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+}
+
+.body-face div .check {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #FDB140;
+}
+
+.check div {
+
+    background-color: #ccc;
+}
+
+.fa-check-circle {
+    color: rgb(9, 95, 36);
+    font-size: 12px;
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+
+#h1-body-face {
+    font-size: 35px;
+    font-family: Ibarra Real Nova;
+}
+
+.body-face div button {
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(9, 95, 36);
+    margin: 10px;
+    color: white;
+    padding: 10px 30px 10px 30px;
+
+}
+.about{
+    width: 100%;
+    height: 40%;
+   display: flex;    
+    flex-direction: row;
+  
+  
+
+}
+.about .center p{
+    width: 70%;
+   margin-left: 10%;
+   display: flex;
+   flex-wrap: wrap;
+ 
+}
+.about .container{
+    padding: 10px;
+   margin-top: -40px;
+
+}
+.about  .center h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #121212;
+    text-align: center;
+}
+.about  .center span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3E3E3E;
+    text-align: center;
+}
+.about .container img{
+    background-color: #EDC988;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-bottom: 4%;
+    margin-left: 85%;
+}
+.about .center{
+
+    width: 80%;
+background: linear-gradient(#EDEDED  ,#FFFFFF00 );
+
+
+}
+
+
+.about  .img1{
+    height: 350px;
+    width: 350px;
+    margin-left: 2%;
+}
+   .about    #img-2-about{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .images {
+    padding: 2%;
+    width: 80%;
+  
+    height: 10%;
+    background-color: #CEDEA2;
+    display: flex;
+    justify-content: space-around
+}
+
+
+footer .all {
+    background-color: #315316;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 6%;
+    color: white;
+}
+
+.all h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+.rectangle {
+    width: 100%;
+    height: 10%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #121212;
+}
+
+
+
+
+.all .Central .dropdown {
+    width: 200px;
+}
+
+.all .Central .dropdown button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.swiper {
+    width: 100%;
+
+    height: 10%;
+
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #CEDEA2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+
+
+}
+
+.swiper-slide img {
+
+    width: 100px;
+    height: 45px;
+
+
+
+}
+
+@media only screen and (max-width:768px) {
+    .toggle {
+        display: block;
+        margin-top: 10px;
+        font-size: 25px;
+
+
+
+    }
+
+    .toggle .fa-bars {
+        display: block;
+        color: #121212;
+
+
+    }
+
+    .toggle .fa-xmark {
+        display: none;
+        color: #121212;
+
+    }
+
+    .open .fa-bars {
+        display: none;
+    }
+
+    .open .fa-xmark {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 90vh;
+        background-color:#e7e4e4;
+        box-shadow: 2px 2px 2px 2px rgb(179, 179, 187);
+        flex-direction: column;
+
+        justify-content: space-around;
+
+        transform: translateX(-100%);
+
+
+    }
+
+    .open .menu {
+        display: flex;
+        transform: translateX(0);
+    }
+
+    nav {
+        margin-top: 15px;
+        width: 100%;
+        height: 7%;
+        margin-left: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        padding: 5px;
+        box-shadow: 2px 2px 2px 2px rgb(179, 179, 187);
+
+
+    }
+
+    nav h1 {
+        padding-top: 10px;
+        font-family: 'Ibarra Real Nova';
+        color: #121212;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #home {
+
+        width: 100%;
+        height: 60%;
+        background: url("images/Screenshot\ 2023-07-24\ 010528.png") top center;
+        background-size: none;
+        background-repeat: no-repeat;
+
+
+
+
+    }
+
+    section {
+
+        padding: 15% 0;
+        overflow: visible;
+    }
+
+    .container {
+
+
+        margin-top: 50px;
+        width: 50%;
+        height: 50%;
+        margin-left: 10px;
+
+
+    }
+
+
+    .img {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #img2 {
+        margin-right: 100px;
+        padding-right: 20%;
+    }
+
+    section .container h1 {
+        font-family: 'font3';
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+
+
+    }
+
+    section .container p {
+        font-size: 18px;
+        color: rgb(49, 48, 48);
+        margin-bottom: 10px;
+        margin-left: 20px;
+
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: center;
+        margin-top: 0;
+
+    }
+
+    .btn button {
+        background-color: transparent;
+        border: none;
+        border-radius: 25px;
+        background-color: rgb(9, 95, 36);
+        margin: 0px;
+        font-size: 15px;
+        color: white;
+        font-family: ' Hind Madurai';
+        padding: 15px 20px 15px 20px;
+
+    }
+
+    .btn button:hover {
+        background-color: white;
+        border: 2px solid rgb(9, 95, 36);
+        color: black;
+    }
+
+    #btn-learn {
+        border: 2px solid rgb(9, 95, 36);
+        background-color: white;
+        color: black;
+        font-family: ' Hind Madurai';
+        margin-left: 20px;
+    }
+
+
+    .info {
+
+
+        margin: auto;
+        width: 85%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 140px;
+
+    }
+
+
+    .col div {
+        width: 100%;
+        height: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .info .row1 .col h1 {
+
+        font-size: 40px;
+    }
+
+    .info .row1 .col h2 {
+        font-size: 28px;
+    }
+
+    .info .row1 .col p {
+        font-size: 18px;
+    }
+
+    .row2 {
+        width: 100%;
+        height: 50%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+    }
+
+    .info .row2 h1 {
+        margin-top: 25px;
+        font-size: 40px;
+    }
+
+    .info .row2 p {
+
+        font-size: 20px;
+    }
+
+
+    .BeautyCare {
+
+        margin-top: 4%;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+
+    .video video {
+        width: 80%;
+        height: 60%;
+        margin: auto;
+        display: block;
+
+
+
+    }
+
+    .BeautyCosmeticsProducts {
+        font-size: 30px;
+        margin: 6%;
+        display: flex;
+
+        justify-content: center;
+        font-family: 'font4';
+        color: black;
+        font-weight: bold;
+
+    }
+
+    .product {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    .product .row {
+        display: flex;
+        flex-direction: column;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+    }
+
+    .product .row div {
+        width: 70%;
+        height: 60%;
+
+        margin-left: auto;
+
+        margin: 8%;
+        box-shadow: 4px 4px 4px 4px rgb(179, 179, 187);
+
+
+    }
+
+    .product .row .img-product {
+        width: 80%;
+        height: 40%;
+        background-color: rgb(231, 229, 226);
+        display: flex;
+        justify-content: center;
+        margin-top: -30%;
+        border-radius: 8px;
+    }
+
+    .product .row div img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .product .row span {
+        color: rgb(9, 95, 36);
+        font-size: 25px;
+    }
+
+    .product .row div h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .product .row div p {
+        font-size: 25px;
+        margin-bottom: 40px;
+
+    }
+
+
+
+
+
+}
+@media  (min-width:320px) and (max-width:480px) {
+
+    
+#home {
+    width: 100%;
+    height: 100vh;
+    background:url("images/Screenshot\ 2023-07-30\ 113751.png") top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+section {
+
+    padding: 15% 0;
+    overflow: hidden;
+}
+.container {
+
+
+    width: 80%;
+    height: 40%;
+    margin-top: 8%;
+
+
+
+}
+section .container h1 {
+    font-family: 'font3';
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    font-weight: 700;
+
+
+}
+
+section .container p {
+    width: 70%;
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    margin-left: 20%;
+}
+
+
+.btn button {
+
+    border: none;
+    border-radius: 25px;
+ font-size: 15px;
+    margin: 4px;
+    color: white;
+    font-family: ' Hind Madurai';
+    padding: 10px 20px 10px 20px;
+
+}
+nav {
+    margin-top: 15px;
+    width: 50%;
+    height: 4%;
+    margin-left: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(179, 179, 187);
+
+
+}
+
+nav h1 {
+    padding-top: 10px;
+    font-family: 'Ibarra Real Nova';
+    color: #121212;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+
+}
